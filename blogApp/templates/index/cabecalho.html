@@ -1,0 +1,35 @@
+<!doctype html>
+
+{% load static %}
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Modelo de Formulário</title>
+
+        <link red='stylesheet' href='{% static 'css/cabecalho.css' %}' />
+
+
+    </head>
+
+    <body>
+     <div class='logo'>
+         <img src="{% static "img/foto.jpg" %}" alt="Logo da Obesidade" />
+     </div>
+
+     <div class='menu'>
+         <a href="/blogApp/Obesidade">Obesidade</a>
+         <a href='/blogApp/sair'>Sair</a>
+     </div>
+
+    <div class='bemvindo'>
+        <h2>Bem-vindo ao maior Blog sobre Obesidade do Mundo!</h2>
+    </div>
+
+    </body>
+
+</html>

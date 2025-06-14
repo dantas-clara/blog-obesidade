@@ -1,4 +1,7 @@
 <!doctype html>
+
+{% load static %}
+
 <html lang=pt-br>
 
     <head>
@@ -14,6 +17,9 @@
             Olá, blogueiro! <b>{{ msg }}</b>
             <a href="/blogApp/">Obesidade</a>
             .
+            <p>
+            <img src="{% static "img/foto.jpg" %}" alt="Logo da Obesidade" />
+            </p>
     </body>
 
 

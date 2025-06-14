@@ -129,8 +129,9 @@ STATIC_PATH = os.path.join(os.path.dirname(__file__), 'static')
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
+STATIC_DIRS = (
     STATIC_PATH,
+    BASE_DIR / 'blogApp' / 'static',
 )
 
 # Default primary key field type
